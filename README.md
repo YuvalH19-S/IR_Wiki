@@ -18,7 +18,7 @@ This project is an information retrieval system designed to search and retrieve 
 Before running the project, ensure you have installed all required packages. You can install them using pip:
 
 ```bash
-pip install flask nltk numpy pandas scikit-learn gensim google-cloud-storage
+pip install -r requirements.txt
 ```
 
 Additionally, you will need to download the NLTK stopwords dataset:
@@ -34,9 +34,9 @@ nltk.download('stopwords')
 
 2. **Inverted Indexes**: Follow the instructions in the "index creation - python notebook pipeline" to generate and store the inverted indexes in your GCP bucket.
 
-3. **Word2Vec Model**: The backend uses the "glove-wiki-gigaword-300" model from Gensim's API. Make sure you have internet access when running the backend for the first time to download this model.
+3. **Installing dependencies**: Install all dependencies as listed in requirements.txt
 
-## Running the Backend
+## Running the Server
 
 To start the backend server, run the `search_frontend.py` script. This will start a Flask app that listens for search queries:
 
