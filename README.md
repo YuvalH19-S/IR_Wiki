@@ -55,7 +55,7 @@ By default, the server will run on `localhost:5000`. You can issue search querie
 - `search_backend.py`: Contains the logic for the information retrieval model, including tokenization, querying, and ranking algorithms.
 - `search_frontend.py`: Flask application that provides an HTTP interface to the search backend.
 - `inverted_index_gcp.py`: Utilities for creating, loading, and manipulating inverted indexes stored in GCP buckets.
-- Index Creation Notebook: A Jupyter notebook used for creating inverted indexes from the wiki corpus.
+- `Index Creation Notebook`: A Jupyter notebook used for creating inverted indexes from the wiki corpus.
 
 
 
