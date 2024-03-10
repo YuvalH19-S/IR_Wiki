@@ -1,0 +1,9 @@
+Flask
+nltk
+pandas
+google-cloud-storage
+numpy
+scikit-learn
+gensim
+pyspark
+graphframes
